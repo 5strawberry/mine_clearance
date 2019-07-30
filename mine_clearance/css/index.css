@@ -1,0 +1,94 @@
+#mine{
+	margin: 20px auto;
+}
+.level{
+	text-align: center;
+}
+.level button{
+	/*padding: 5px,15px;*/
+	background: #02a4ad;
+	color: white;
+	/*按钮圆角设计*/
+	border-radius:30px;
+	outline: none;
+	/*更改光标默认箭头样式，改为小手*/
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+.level button:active{
+	background: #00abff;
+}
+.info{
+	margin-top: 20px;
+	text-align: center;
+}
+table{
+	border-spacing:1px ;
+	background-color: #929196;
+	margin: 0 auto;
+}
+td{
+	padding: 0;
+	width: 15px;
+	height: 15px;
+	background: #ccc;
+	/*设置单元格样式*/
+	border: 2px solid;
+	border-color:  #929196 #ccc #ccc #929196  ;
+	/*字体居中并加粗显示*/
+	text-align: center;
+	line-height:15px ;
+	font-weight: bold;
+}
+.mine{
+	background: #d9d9d9 url(../img/雷.jpg) no-repeat center;
+	background-size:cover ;
+}
+.flag{
+	background:#ccc url(../img/旗.jpg) no-repeat center;
+	background-size:cover ;
+}
+td.zero{
+	border-color:#d9d9d9 ;
+	background: #d9d9d9;
+}
+td.one{
+	border-color:#d9d9d9 ;
+	background: #d9d9d9;
+	color: #00ABFF;
+}
+td.two{
+	border-color:#d9d9d9 ;
+	background: #d9d9d9;
+	color:green;
+}
+td.three{
+	border-color:#d9d9d9 ;
+	background: #d9d9d9;
+	color:red;
+}
+td.four{
+	border-color:#d9d9d9 ;
+	background: #d9d9d9;
+	color:#93208f;
+}
+td.five{
+	border-color:#d9d9d9 ;
+	background: #d9d9d9;
+	color:#ff7f29;
+}
+td.six{
+	border-color:#d9d9d9 ;
+	background: #d9d9d9;
+	color:#ff3fff;
+}
+td.seven{
+	border-color:#d9d9d9 ;
+	background: #d9d9d9;
+	color:#3fffbf;
+}
+td.five{
+	border-color:#d9d9d9 ;
+	background: #d9d9d9;
+	color:#22ee0f;
+}
